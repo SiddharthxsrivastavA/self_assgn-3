@@ -1,14 +1,13 @@
-n=int(input("enter the number"))
+n=int(input("enter the number of sequences u want in fibonacci series"))
 a=0
 b=1
 sum=0
 for i in range(1,n+1):
    
-    
     c=a+b
     print(a)
-      sum=sum+a
-      avg=sum/i
+    sum=sum+a
+    avg=sum/i
     a=b
     b=c
-      print(avg)
+    print(avg)
